@@ -61,7 +61,7 @@ public class MainMenu extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == startButton) {
             // Start the game
-            new TicTacToeGame();
+            new PlayerNameScene();
             dispose(); // Close the main menu
         }
     }
