@@ -2,6 +2,9 @@ import java.awt.*;
 import javax.swing.JFrame;
 import java.awt.event.*;
 
+// Tic Tac Toe is fun!
+// Submitted by Sandy Lumacad (BSIT - 2)
+
 public class MainMenu extends JFrame implements ActionListener {
     private Button startButton;
     private Label title;

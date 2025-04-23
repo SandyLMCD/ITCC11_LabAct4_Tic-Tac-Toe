@@ -1,6 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 
+// Tic Tac Toe is fun!
+// Submitted by Sandy Lumacad (BSIT - 2)
+
 public class PlayerNameScene extends Frame {
 
     private TextField player1Input;

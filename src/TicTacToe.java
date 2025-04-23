@@ -1,6 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 
+// Tic Tac Toe is fun!
+// Submitted by Sandy Lumacad (BSIT - 2)
+
 public class TicTacToe extends Frame {
     private String player1Name;
     private String player2Name;

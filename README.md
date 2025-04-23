@@ -1,18 +1,53 @@
-## Getting Started
+# Tic Tac Toe Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Tic Tac Toe game that allows players to take turns with each other until it arrives at a winning point.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Allows up to two nameable players.
+- Includes a 3x3 grid as playing field.
+- It keeps track of whose player's turn is it in the game.
+- Once there is a winner, a dialog box appears showcasing the winning player name and an option to do a new game.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to Run the Game
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Clone the Repository**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```bash
+git clone https://github.com/SandyLMCD/ITCC11_LabAct4_Tic-Tac-Toe
+cd ITCC11_LabAct4_Tic-Tac-Toe
+```
 
-## Dependency Management
+2. **Compile the Java File**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+javac ITCC11_LabAct4_Tic-Tac-Toe.java
+```
+
+3. **Run the Game**
+
+```bash
+java ITCC11_LabAct4_Tic-Tac-Toe.java
+```
+
+## Screenshots
+
+### Main Menu Screen
+
+![alt text](image-1.png)
+
+### Entering of Player Names Screen
+
+![alt text](image-2.png)
+
+### Tic Tac Toe Game Proper
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+
+### Display the Winner's Name Screen
+
+- **Start New Game:** Reset the game board, the player names remain
+- **Back to Main Menu:** Goes back to the Main Menu, the player names would reset
+
+![alt text](image-5.png)
