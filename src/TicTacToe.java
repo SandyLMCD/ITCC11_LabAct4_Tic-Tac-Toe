@@ -139,7 +139,7 @@ public class TicTacToe extends Frame {
         winMessage.setBounds(50, 80, 300, 50);
         winMessage.setFont(new Font("SansSerif", Font.BOLD, 20));
         winFrame.add(winMessage);
-        dispose();
+        resetBoard();
 
         Button newGame = new Button("Start New Game");
         newGame.setBounds(120, 150, 160, 30);
